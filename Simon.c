@@ -35,7 +35,7 @@ int main()
         score = score + 1;
         displayArray(Array, ele);
         Win = Game(Array, ele);
-	if (Win == 1)
+	    if (Win == 1)
         {
              flash(2);
         }
